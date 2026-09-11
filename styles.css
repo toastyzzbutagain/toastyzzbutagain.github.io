@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  min-height: 95vh;
+  color: #fff;
+  justify-content: center;
+  font-family: 'Source Code Pro', sans-serif;
+  /* 1. Sets the page background to match the image's solid black background */
+  background-color: #000000; 
+  
+  /* 2. Sets your character image */
+  background-image: url('assets/background.jpg'); 
+  
+  /* 3. Prevents the image from tiling */
+  background-repeat: no-repeat; 
+  
+  /* 4. Keeps the character anchored exactly where she belongs */
+  background-position: right bottom; 
+  
+  /* 5. Keeps the original size of the artwork so it doesn't get distorted */
+  background-size: contain; 
+}
+
+/* Optional adjustment specifically for small mobile screens */
+@media (max-width: 768px) {
+  body {
+    /* If the character is too small on mobile, you can manually set a size 
+       (e.g., make the image take up 80% of the screen width) */
+    background-size: 100% auto; 
+  }
+  
+  .background {
+    height: 635px; 
+  }
+  .title-text {
+  width: 50%;
+}
+}
+
+.background {
+  background-color: rgb(30 30 35 / 60%); /* Transparent dark grey */
+  margin: 35px;
+  padding: 15px;
+  width: 750px;
+  border-radius: 30px;
+  height: 635;        /* Defines the box height */
+  overflow: auto;       /* Automatically adds scrollbars only when needed */
+  
+  /* Optional styling to make it look nice */
+  border: 1px solid #333;
+}
+
+.background .title-text {
+  text-align: center;
+}
+
+.title-text {
+  width: 75%;
+}
+
+.line {
+  border: none;
+  height: 3px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin: 10px;
+  width: 85%;
+}
+
+.link-thing {
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  border-radius: 15px;
+  display: inline-flex;       /* Keeps the div inline with text, but allows flex alignment */
+  align-items: center;        /* Vertically centers the arrow and the text perfectly */
+  gap: 8px;                   /* Easily adjusts the space between the arrow and text */
+  white-space: nowrap;   
+}
+
+
+.link-thing p {
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  color: white;
+  text-decoration: underline;
+}
+
+details {
+  padding: 25px;
+  
+}
+
+.project-description {
+  color: #9D9D9D;
+}
+
+.grey-text {
+  color: #9D9D9D;
+}
+
+.grey-link {
+  color: #9D9D9D;
+  text-decoration: underline;
+}
