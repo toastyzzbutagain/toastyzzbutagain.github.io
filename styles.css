@@ -25,75 +25,8 @@ body {
   body {
     /* If the character is too small on mobile, you can manually set a size 
        (e.g., make the image take up 80% of the screen width) */
-    background-size: 100% auto; 
+    background-size: 90% auto; 
   }
-  
-.background {
-  background-color: rgb(30 30 35 / 60%); /* Transparent dark grey */
-  margin: 35px;
-  padding: 15px;
-  border-radius: 30px;
-  height: auto;        /* Defines the box height */
-  overflow: auto;       /* Automatically adds scrollbars only when needed */
-  
-  /* Optional styling to make it look nice */
-  border: 1px solid #333;
-}
-
-.background .title-text {
-  text-align: center;
-}
-
-.title-text {
-  width: 100%;
-}
-
-.line {
-  border: none;
-  height: 3px;
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  margin: 10px;
-  width: 85%;
-}
-
-.link-thing {
-  padding: 10px;
-  margin: 10px;
-  width: auto;
-  border-radius: 15px;
-  display: inline-flex;       /* Keeps the div inline with text, but allows flex alignment */
-  align-items: center;        /* Vertically centers the arrow and the text perfectly */
-  gap: 8px;                   /* Easily adjusts the space between the arrow and text */
-  white-space: nowrap;   
-}
-
-
-.link-thing p {
-  margin-right: 10px;
-}
-
-a {
-  color: white;
-  text-decoration: underline;
-}
-
-details {
-  padding: 25px;
-  
-}
-
-.project-description {
-  color: #9D9D9D;
-}
-
-.grey-text {
-  color: #9D9D9D;
-}
-
-.grey-link {
-  color: #9D9D9D;
-}
 }
 
 /* Actual main code. */
